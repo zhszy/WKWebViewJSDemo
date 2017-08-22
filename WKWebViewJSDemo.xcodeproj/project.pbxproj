@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6965B63289BDEF00C089FAF8 /* libPods-WKWebViewJSDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5684AC1496F0B15CBADBFC14 /* libPods-WKWebViewJSDemo.a */; };
 		B14319E41F4B058B00FF51F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B14319E31F4B058B00FF51F0 /* main.m */; };
 		B14319E71F4B058B00FF51F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B14319E61F4B058B00FF51F0 /* AppDelegate.m */; };
 		B14319EA1F4B058B00FF51F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14319E91F4B058B00FF51F0 /* ViewController.m */; };
@@ -23,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5684AC1496F0B15CBADBFC14 /* libPods-WKWebViewJSDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WKWebViewJSDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		700A99161D7E0E7635458CA0 /* Pods-WKWebViewJSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKWebViewJSDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WKWebViewJSDemo/Pods-WKWebViewJSDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		859A50790E673A208BD2E9A5 /* Pods-WKWebViewJSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKWebViewJSDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WKWebViewJSDemo/Pods-WKWebViewJSDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B14319DF1F4B058B00FF51F0 /* WKWebViewJSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebViewJSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B14319E31F4B058B00FF51F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B14319E51F4B058B00FF51F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,18 +55,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6965B63289BDEF00C089FAF8 /* libPods-WKWebViewJSDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A76180E36A8FE08711EBC3B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5684AC1496F0B15CBADBFC14 /* libPods-WKWebViewJSDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9F43A7ABA7BF9ABC3EBB94E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				700A99161D7E0E7635458CA0 /* Pods-WKWebViewJSDemo.debug.xcconfig */,
+				859A50790E673A208BD2E9A5 /* Pods-WKWebViewJSDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B14319D61F4B058B00FF51F0 = {
 			isa = PBXGroup;
 			children = (
 				B14319FE1F4B06E700FF51F0 /* WKWebViewJSBridge */,
 				B14319E11F4B058B00FF51F0 /* WKWebViewJSDemo */,
 				B14319E01F4B058B00FF51F0 /* Products */,
+				A9F43A7ABA7BF9ABC3EBB94E /* Pods */,
+				A76180E36A8FE08711EBC3B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B14319F61F4B058B00FF51F0 /* Build configuration list for PBXNativeTarget "WKWebViewJSDemo" */;
 			buildPhases = (
+				A501246921BE4F63C1E11065 /* [CP] Check Pods Manifest.lock */,
 				B14319DB1F4B058B00FF51F0 /* Sources */,
 				B14319DC1F4B058B00FF51F0 /* Frameworks */,
 				B14319DD1F4B058B00FF51F0 /* Resources */,
+				1868CF500F4BBF2CA61C206F /* [CP] Embed Pods Frameworks */,
+				B44E482C109F8910CF19E4A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,6 +210,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1868CF500F4BBF2CA61C206F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WKWebViewJSDemo/Pods-WKWebViewJSDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A501246921BE4F63C1E11065 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B44E482C109F8910CF19E4A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WKWebViewJSDemo/Pods-WKWebViewJSDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B14319DB1F4B058B00FF51F0 /* Sources */ = {
@@ -314,6 +389,7 @@
 		};
 		B14319F71F4B058B00FF51F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 700A99161D7E0E7635458CA0 /* Pods-WKWebViewJSDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WKWebViewJSDemo/Info.plist;
@@ -325,6 +401,7 @@
 		};
 		B14319F81F4B058B00FF51F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 859A50790E673A208BD2E9A5 /* Pods-WKWebViewJSDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WKWebViewJSDemo/Info.plist;
