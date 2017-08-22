@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "WKWebViewJSBridge"
-  s.version      = "1.1.0"
+  s.version      = "1.2.0"
   s.summary      = "You simply need to create a class and pass an instance to the WebView through addJavascriptInterface(Object object, String name)."
 
   s.authors      = { 'zhszy' => '18616372371@163.com' }
