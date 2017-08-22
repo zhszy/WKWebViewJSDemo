@@ -9,10 +9,20 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>WKWebViewJSBridge.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>6CAF979FF26950368CF8A990615C4A64</key>
+		<key>42BCE72DCAB1608F6F2F6D351A984BE2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F42F5482BE34C7FB4E60233BCBF055EF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '42BCE72DCAB1608F6F2F6D351A984BE2'
-               BlueprintName = 'Pods-WKWebViewJSDemo'
+               BlueprintIdentifier = 'F42F5482BE34C7FB4E60233BCBF055EF'
+               BlueprintName = 'WKWebViewJSBridge'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-WKWebViewJSDemo.a'>
+               BuildableName = 'libWKWebViewJSBridge.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

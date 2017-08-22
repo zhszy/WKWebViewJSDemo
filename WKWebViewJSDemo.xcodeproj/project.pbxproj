@@ -16,11 +16,6 @@
 		B14319F21F4B058B00FF51F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B14319F01F4B058B00FF51F0 /* LaunchScreen.storyboard */; };
 		B14319FC1F4B05F400FF51F0 /* MyJSInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = B14319FA1F4B05F400FF51F0 /* MyJSInterface.m */; };
 		B14319FD1F4B05F400FF51F0 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = B14319FB1F4B05F400FF51F0 /* test.html */; };
-		B1431A071F4B06E700FF51F0 /* easyjs-inject.js in Resources */ = {isa = PBXBuildFile; fileRef = B14319FF1F4B06E700FF51F0 /* easyjs-inject.js */; };
-		B1431A081F4B06E700FF51F0 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B1431A001F4B06E700FF51F0 /* README.md */; };
-		B1431A091F4B06E700FF51F0 /* WKJSDataFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = B1431A021F4B06E700FF51F0 /* WKJSDataFunction.m */; };
-		B1431A0A1F4B06E700FF51F0 /* WKJSProxyDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1431A041F4B06E700FF51F0 /* WKJSProxyDelegate.m */; };
-		B1431A0B1F4B06E700FF51F0 /* ZHSWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1431A061F4B06E700FF51F0 /* ZHSWKWebView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,14 +35,6 @@
 		B14319F91F4B05F400FF51F0 /* MyJSInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyJSInterface.h; sourceTree = "<group>"; };
 		B14319FA1F4B05F400FF51F0 /* MyJSInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyJSInterface.m; sourceTree = "<group>"; };
 		B14319FB1F4B05F400FF51F0 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
-		B14319FF1F4B06E700FF51F0 /* easyjs-inject.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "easyjs-inject.js"; sourceTree = "<group>"; };
-		B1431A001F4B06E700FF51F0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B1431A011F4B06E700FF51F0 /* WKJSDataFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJSDataFunction.h; sourceTree = "<group>"; };
-		B1431A021F4B06E700FF51F0 /* WKJSDataFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJSDataFunction.m; sourceTree = "<group>"; };
-		B1431A031F4B06E700FF51F0 /* WKJSProxyDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKJSProxyDelegate.h; sourceTree = "<group>"; };
-		B1431A041F4B06E700FF51F0 /* WKJSProxyDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKJSProxyDelegate.m; sourceTree = "<group>"; };
-		B1431A051F4B06E700FF51F0 /* ZHSWKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHSWKWebView.h; sourceTree = "<group>"; };
-		B1431A061F4B06E700FF51F0 /* ZHSWKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHSWKWebView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +69,6 @@
 		B14319D61F4B058B00FF51F0 = {
 			isa = PBXGroup;
 			children = (
-				B14319FE1F4B06E700FF51F0 /* WKWebViewJSBridge */,
 				B14319E11F4B058B00FF51F0 /* WKWebViewJSDemo */,
 				B14319E01F4B058B00FF51F0 /* Products */,
 				A9F43A7ABA7BF9ABC3EBB94E /* Pods */,
@@ -123,21 +109,6 @@
 				B14319E31F4B058B00FF51F0 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B14319FE1F4B06E700FF51F0 /* WKWebViewJSBridge */ = {
-			isa = PBXGroup;
-			children = (
-				B14319FF1F4B06E700FF51F0 /* easyjs-inject.js */,
-				B1431A001F4B06E700FF51F0 /* README.md */,
-				B1431A011F4B06E700FF51F0 /* WKJSDataFunction.h */,
-				B1431A021F4B06E700FF51F0 /* WKJSDataFunction.m */,
-				B1431A031F4B06E700FF51F0 /* WKJSProxyDelegate.h */,
-				B1431A041F4B06E700FF51F0 /* WKJSProxyDelegate.m */,
-				B1431A051F4B06E700FF51F0 /* ZHSWKWebView.h */,
-				B1431A061F4B06E700FF51F0 /* ZHSWKWebView.m */,
-			);
-			path = WKWebViewJSBridge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,7 +176,6 @@
 				B14319F21F4B058B00FF51F0 /* LaunchScreen.storyboard in Resources */,
 				B14319EF1F4B058B00FF51F0 /* Assets.xcassets in Resources */,
 				B14319ED1F4B058B00FF51F0 /* Main.storyboard in Resources */,
-				B1431A071F4B06E700FF51F0 /* easyjs-inject.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,13 +203,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WKWebViewJSDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B44E482C109F8910CF19E4A8 /* [CP] Copy Pods Resources */ = {
@@ -264,12 +237,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1431A091F4B06E700FF51F0 /* WKJSDataFunction.m in Sources */,
-				B1431A0B1F4B06E700FF51F0 /* ZHSWKWebView.m in Sources */,
 				B14319EA1F4B058B00FF51F0 /* ViewController.m in Sources */,
-				B1431A0A1F4B06E700FF51F0 /* WKJSProxyDelegate.m in Sources */,
 				B14319E71F4B058B00FF51F0 /* AppDelegate.m in Sources */,
-				B1431A081F4B06E700FF51F0 /* README.md in Sources */,
 				B14319FC1F4B05F400FF51F0 /* MyJSInterface.m in Sources */,
 				B14319E41F4B058B00FF51F0 /* main.m in Sources */,
 			);
@@ -430,6 +399,7 @@
 				B14319F81F4B058B00FF51F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
